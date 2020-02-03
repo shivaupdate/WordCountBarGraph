@@ -1,27 +1,13 @@
-# AngularTest
+This is to demonstrate my skills using the Angular framework. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
+*create a basic Angular application and within this application, create a module that will have a textarea input. 
 
-## Development server
+*Given a sentence is typed into the field, the module will calculate how many times each word is repeated in the given sentence and create a bar graph using css only showing each word and its usage. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+*The logic will also ignore the following words: "and", "the", "a/an”.
 
-## Code scaffolding
+For instance, given this sentence is typed into the field:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The fight is won or lost far away from witnesses - behind the lines, in the gym, and out there on the road, long before I dance under those lights. - Muhammad Ali
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The module would count all the words, ignoring and, the and a/an and create the graph with how many times each word is used.
