@@ -1,0 +1,8 @@
+<textarea rows="4" cols="50" [(ngModel)]='wordValues' (keyup)="onKey()">
+       </textarea>
+
+<ul class="chart">
+    <li *ngFor="let col of words">
+        <span [style.height.%]="col.Coun+20" title={{col.name}}> {{col.Count}}</span>
+    </li>
+</ul>
